@@ -38,7 +38,7 @@ namespace DiscordBot
             GetCurrentGameInfo();
             discord.ExecuteAndWait(async () =>
             {
-                await discord.Connect("MjcwMTY3MzQ2MTA5MzQ5ODg5.C11JcA.QbMiEu-yiMh_5TIIn0Wz0-QhZb8",TokenType.Bot);
+                await discord.Connect("",TokenType.Bot);
             });
         }
         private void OpggFunc()
